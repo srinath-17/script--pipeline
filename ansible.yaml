@@ -1,0 +1,8 @@
+---
+- hosts:
+become: yes
+- name: install tomcat
+  yum:
+    name: tomcat
+    state: yes
+
